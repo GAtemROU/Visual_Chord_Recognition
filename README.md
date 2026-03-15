@@ -25,6 +25,10 @@ What was different in our case is that training on the whole data lead to 20% le
 ## Data
 We collected the majority of the dataset ourselves, capturing images of people holding chords from various distances and orientations. Additionally, open-source images were incorporated to enhance diversity, resulting in a total of 472 images across 14 chords.
 
+Combinations of augmentations such as rotation, crop, color jittering or grey scale have majorly improved the dataset size.
+
+![Examples of the final data.](augment.png)
+
 ## Results
 Our final model gets 90%+ accuracy on the simple test created from the images of same person we had during training and 60% on the hard test which was created from the completely unseen data.
 
